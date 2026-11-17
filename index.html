@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller de Diseño de Servicios 2026</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="page">
+    <div>
+      <header class="site-header">
+        <button class="about-button" id="openModal">Sobre los Proyectos</button>
+
+        <section class="hero">
+          <h1>Taller de Diseño de Servicios 2026</h1>
+          <h2>Visualización de Datos</h2>
+        </section>
+
+        <nav class="view-tabs" aria-label="Cambiar vista">
+          <button class="tab-button active" id="gridBtn">Grilla</button>
+          <button class="tab-button" id="listBtn">Lista</button>
+        </nav>
+      </header>
+
+      <section id="projectsContainer" class="projects grid-view"></section>
+    </div>
+
+    <footer class="site-footer">
+      <p>
+        Todos los proyectos presentes realizados en el
+        <a href="https://wiki.ead.pucv.cl/Taller_de_Dise%C3%B1o_de_Servicios_2026" target="_blank" rel="noopener noreferrer">Taller de Diseño de Servicios 2026</a>,
+        Con la guía de las profesoras
+        <a href="https://wiki.ead.pucv.cl/Katherine_Exss" target="_blank" rel="noopener noreferrer">Katherine Exss</a>
+        y
+        <a href="https://wiki.ead.pucv.cl/Javiera_Ruiz" target="_blank" rel="noopener noreferrer">Javiera Ruiz</a>.
+      </p>
+
+      <div class="footer-logos">
+        <a href="https://www.ead.pucv.cl/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/logos/ead-logo.png" alt="Logo institucional vertical" />
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <section class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <article class="modal">
+      <button class="modal-close" id="closeModal" aria-label="Cerrar modal">×</button>
+
+      <h3>Unidad 3: Visualización de Datos</h3>
+
+      <p>
+        En este sitio puedes revisar los proyectos grupales desarrollados por los estudiantes del Taller de Diseño de Servicios 2026, correspondientes a la <strong>Unidad 3: Visualización de Datos (Proyecto de Visualización de Servicios y Travesía)</strong>.
+      </p>
+
+      <p>
+        Esta unidad se centra en el proceso de visualización de datos complejos, estudiando aspectos sensoriales y experienciales de la ciudad de Valparaíso y Buenos Aires.
+      </p>
+
+      <p>
+        Cada grupo define una pregunta orientadora precisa y articula instrumentos pertinentes para el levantamiento de datos desde múltiples fuentes (incluyendo un artefacto físico experimental dispuesto en el espacio público), para contrastar, sistematizar y transformar los registros en una experiencia de visualización digital e interactiva que revele patrones y relaciones significativas sobre el fenómeno urbano estudiado.
+      </p>
+    </article>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
